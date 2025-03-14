@@ -1,6 +1,13 @@
 {
   "opinions": [
     {
+      "id": 1741968937311,
+      "votes": 0,
+      "userName": "Alex",
+      "title": "test title",
+      "body": "this is test opinion text"
+    },
+    {
       "id": 1,
       "userName": "Maximilian Schwarzmüller",
       "title": "Do yourself a favor and learn React!",
