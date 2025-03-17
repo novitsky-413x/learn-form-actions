@@ -1,6 +1,20 @@
 {
   "opinions": [
     {
+      "id": 1742200458759,
+      "votes": 0,
+      "userName": "Bartra",
+      "title": "Testing new Submit component",
+      "body": "This is another test..."
+    },
+    {
+      "id": 1742199658392,
+      "votes": 0,
+      "userName": "Isle",
+      "title": "Another test",
+      "body": "Testing another record"
+    },
+    {
       "id": 1741968937311,
       "votes": 0,
       "userName": "Alex",
