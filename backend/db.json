@@ -2,21 +2,21 @@
   "opinions": [
     {
       "id": 1742202404736,
-      "votes": 11,
+      "votes": 13,
       "userName": "Julia",
       "title": "Something",
       "body": "Have a nice day"
     },
     {
       "id": 1742200458759,
-      "votes": 0,
+      "votes": 1,
       "userName": "Bartra",
       "title": "Testing new Submit component",
       "body": "This is another test..."
     },
     {
       "id": 1742199658392,
-      "votes": 0,
+      "votes": 1,
       "userName": "Isle",
       "title": "Another test",
       "body": "Testing another record"
