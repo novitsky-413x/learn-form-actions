@@ -1,6 +1,6 @@
 import { use } from 'react';
 import { useActionState } from 'react';
-import { OpinionsContext } from '../store/opinions-context';
+import { OpinionsContext } from '../store/OpinionsContext';
 
 export function NewOpinion() {
     const { addOpinion } = use(OpinionsContext);

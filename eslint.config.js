@@ -9,13 +9,6 @@ import eslintConfigPrettier from 'eslint-config-prettier';
 export default [
     { files: ['**/*.{js,mjs,cjs,jsx}'] },
     { languageOptions: { globals: globals.browser } },
-    {
-        rules: {
-            'react/react-in-jsx-scope': 'off',
-            'react/prop-types': 'off',
-            'no-unused-vars': 'warn',
-        },
-    },
     pluginJs.configs.recommended,
     pluginReact.configs.flat.recommended,
     reactRefresh.configs.recommended,
@@ -25,5 +18,12 @@ export default [
             'react-hooks': pluginReactHooks,
         },
         rules: { ...pluginReactHooks.configs.recommended.rules },
+    },
+    {
+        rules: {
+            'react/react-in-jsx-scope': 'off',
+            'react/prop-types': 'off',
+            'no-unused-vars': 'warn',
+        },
     },
 ];
