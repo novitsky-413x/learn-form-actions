@@ -20,7 +20,6 @@ export function Opinion({ opinion: { id, title, body, userName, votes } }) {
     const [downvoteFormState, downvoteFormAction, downvotePending] = useActionState(downvoteAtion);
     return (
         <article>
-            {console.log(upvotePending)}
             <header>
                 <h3>{title}</h3>
                 <p>Shared by {userName}</p>
